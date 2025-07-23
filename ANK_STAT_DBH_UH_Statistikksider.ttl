@@ -1,30 +1,61 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix provno: <https://data.norge.no/vocabulary/provenance-activity-type#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-@prefix dbh: <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny/> .
-@prefix loc: <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny/> .
-@prefix theme: <http://publications.europa.eu/resource/authority/data-theme/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-dbh:utdanningsdata a dcat:Dataset;
-    dct:title "Statistikk om høyere utdanning"@nb ;
-    dct:description "Database for statistikk om høyere utdanning (DBH) inneholder informasjon om hele den tertiære utdanningen i Norge som inkluderer universiteter, høyskoler og høyere yrkesfaglig utdanning."@nb ;
-    dct:publisher <https://dbh.hkdir.no/> ;
-    dcat:theme theme:POP ;
-    dct:spatial loc:NO ;
-    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcat:contactPoint ssb:kontaktpunkt ;
-    dcat:accessURL https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny/.
+<https://data.hkdir.no/catalog/1> a dcat:Catalog ;
+dct:title "Katalog for datasett innen høyere utdanning"@nb ,
+  "Katalog for datasett innan høgare utdanning"@nn ,
+  "Catalog for datasets in higher education"@en ;
+dct:description 
+  "En katalog for datasett som eies av Direktoratet for høyere utdanning og kompetanse"@nb , 
+  "Ein katalog for datasett som eiges av Direktoratet for høgare utdanning og kompetanse"@nn ,
+  "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
+dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/974788985> ;
+dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
+.
 
-dbh:kontaktpunkt a vcard:Kind ;
-    vcard:fn "Database for statistikk om høyere utdanning"@nb ;
-    vcard:hasEmail <mailto:dbh@hkdir.no> ;
-    vcard:hasURL <https://dbh.hkdir.no/about/contact> .
+<https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
+  vcard:hasEmail "mailto:post@hkdir.no" ;
+  vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
+  vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
+  .
 
-loc:NO a dct:Location ;
-    skos:prefLabel "Norge"@nb ;
-    dct:identifier "NO"^^xsd:string .
 
+<https://data.hkdir.no/contactpoint/DBH> a vcard:Organization ;
+  vcard:hasEmail "dbh@hkdir.no" ;
+  vcard:fn "Statistikk DBH UH HK-dir" ;
+  .
+
+<https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> a dcat:Dataset ;
+  dct:title "DBH - Database for statistikk om høyere utdanning"@nb ,
+            "DBH - Database for statistikk om høgare utdanning"@nn ,
+            "DBH - Database for statistics for higher education"@en ;
+  dct:description "Database for statistikk om høyere utdanning (DBH) inneholder informasjon om hele den tertiære utdanningen i Norge som inkluderer universiteter, høyskoler og høyere yrkesfaglig utdanning.."@nb ,
+                    "Database for statistikk om høgare utdanning (DBH) inneheld informasjon om heile den tertiære utdanninga i Norge som inkluderar universiteter, høyskoler og høyere yrkesfaglig utdanning."@nn ,
+                    "An overview of artificial intelligence projects in the public sector. The overview is not complete."@en ;
+  dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
+  dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
+  dct:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en,
+                "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+  prov:wasGeneratedBy <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party> ;
+  dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+  foaf:page <https://dbh.hkdir.no/tall-og-statistikk> ;
+  dcat:distribution <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
+  .
+
+  <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> a dcat:Distribution ;
+  dcat:accessURL <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
+  dcat:downloadURL <https://raw.githubusercontent.com/HKDIR-DBH/Datasett/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
+  dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
+  dct:description "Lenke til statistikksider hos DBH"@nb ;
+  dct:issued "2025-07-23"^^xsd:date ;
+  dct:license <http://publications.europa.eu/resource/authority/licence/CC0> ;
+  dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/NOB> ;
+  .
 
