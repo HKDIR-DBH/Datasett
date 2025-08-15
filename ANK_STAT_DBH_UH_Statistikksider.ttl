@@ -16,6 +16,7 @@ dct:description
   "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
 dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/974788985> ;
 dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
+dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
 .
 
 <https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
