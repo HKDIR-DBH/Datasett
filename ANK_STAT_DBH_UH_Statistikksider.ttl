@@ -20,14 +20,14 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
 .
 
 <https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
-  vcard:hasEmail "mailto:post@hkdir.no" ;
+  vcard:hasEmail <mailto:post@hkdir.no> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
   vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
   .
 
 
 <https://data.hkdir.no/contactpoint/DBH> a vcard:Organization ;
-  vcard:hasEmail "dbh@hkdir.no" ;
+  vcard:hasEmail <dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir" ;
   .
 
