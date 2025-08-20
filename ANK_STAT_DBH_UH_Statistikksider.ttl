@@ -24,7 +24,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
   vcard:hasEmail <mailto:post@hkdir.no> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
   vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
-  vcard:tel 
+  vcard:tel "tel:+47-55303800" 
   .
 
 
@@ -33,6 +33,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
   vcard:hasEmail <mailto:dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir" ;
   vcard:hasURL <https://dbh.hkdir.no/about/contact>
+  vcard:tel "tel:+47-55303800"
   .
 
   
