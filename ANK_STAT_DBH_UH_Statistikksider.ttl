@@ -59,6 +59,9 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
   .
 
   <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> a dcat:Distribution ;
+  dct:title "DBH - Database for statistikk om høyere utdanning - Statistikkportal"@nb ,
+            "DBH - Database for statistikk om høgare utdanning - Statistikkportal"@nn ,
+            "DBH - Database for statistics for higher education - Statistics"@en ;
   dcat:accessURL <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   dcat:downloadURL <https://raw.githubusercontent.com/HKDIR-DBH/Datasett/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
