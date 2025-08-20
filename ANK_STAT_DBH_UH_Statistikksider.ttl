@@ -20,17 +20,22 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
 .
 
 <https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
+  vcard:fn "Direktoratet for høyere utdanning og kompetanse"@nb , "Norwegian Directorate for Higher Education and Skills"@en ;
   vcard:hasEmail <mailto:post@hkdir.no> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
   vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
+  vcard:tel 
   .
 
 
 <https://dbh.hkdir.no/about/contact> a vcard:Organization ;
-  vcard:hasEmail <dbh@hkdir.no> ;
+  vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
+  vcard:hasEmail <mailto:dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir" ;
   vcard:hasURL <https://dbh.hkdir.no/about/contact>
   .
+
+  
 
 <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> a dcat:Dataset ;
   dct:title "DBH - Database for statistikk om høyere utdanning"@nb ,
@@ -41,6 +46,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
                     "An overview of artificial intelligence projects in the public sector. The overview is not complete."@en ;
   dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
+
   dct:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en,
                 "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
