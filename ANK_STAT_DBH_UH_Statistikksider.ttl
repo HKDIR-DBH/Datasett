@@ -26,7 +26,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
   .
 
 
-<https://data.hkdir.no/contactpoint/DBH> a vcard:Organization ;
+<https://dbh.hkdir.no/about/contact> a vcard:Organization ;
   vcard:hasEmail <dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir" ;
   vcard:hasURL <https://dbh.hkdir.no/about/contact>
