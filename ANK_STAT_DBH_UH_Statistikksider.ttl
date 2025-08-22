@@ -32,7 +32,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
   vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
   vcard:hasEmail <mailto:dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir" ;
-  vcard:hasURL <https://dbh.hkdir.no/about/contact>
+  vcard:hasURL <https://dbh.hkdir.no/about/contact>;
   vcard:tel "tel:+47-55303800"
   .
 
