@@ -43,7 +43,6 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
                     "An overview of artificial intelligence projects in the public sector. The overview is not complete."@en ;
   dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
-
   dct:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en,
                 "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
@@ -52,6 +51,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
   foaf:page <https://dbh.hkdir.no/tall-og-statistikk> ;
   dcat:distribution <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
+
   .
 
   <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> a dcat:Distribution ;
