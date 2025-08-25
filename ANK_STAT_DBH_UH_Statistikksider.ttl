@@ -16,7 +16,7 @@ dct:description
   "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
 dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/974788985> ;
 dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
-dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
+dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
 .
 
 <https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
@@ -30,8 +30,9 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny>;
   vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
   vcard:hasEmail <mailto:dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir" ;
-  vcard:hasURL <https://dbh.hkdir.no/about/contact>;
-  vcard:tel <tel:+47-55303800>
+  vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
+  vcard:tel <tel:+47-55303800>;
+  dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
   .
 <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> a dcat:Dataset ;
   dct:title "DBH - Database for statistikk om høyere utdanning"@nb ,
