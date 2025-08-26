@@ -24,14 +24,14 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   vcard:hasEmail <mailto:post@hkdir.no> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
   vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
-  vcard:tel "tel:+47-55303800" 
+  vcard:tel <tel:+47-55303800> ;
   .
 <https://dbh.hkdir.no/about/contact> a vcard:Organization ;
   vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
   vcard:hasEmail <mailto:dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir" ;
   vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
-  vcard:tel <tel:+47-55303800>;
+  vcard:tel <tel:+47-55303800> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
   .
 <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> a dcat:Dataset ;
