@@ -14,7 +14,7 @@ dct:description
   "En katalog for datasett som eies av Direktoratet for høyere utdanning og kompetanse"@nb , 
   "Ein katalog for datasett som eiges av Direktoratet for høgare utdanning og kompetanse"@nn ,
   "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
-dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/974788985> ;
+dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
 dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
 dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
 .
@@ -29,7 +29,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
 <https://dbh.hkdir.no/about/contact> a vcard:Organization ;
   vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
   vcard:hasEmail <mailto:dbh@hkdir.no> ;
-  vcard:fn "Statistikk DBH UH HK-dir" ;
+  vcard:fn "Statistikk DBH UH HK-dir"@nb ;
   vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
   vcard:tel <tel:+47-55303800> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
@@ -38,19 +38,21 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dct:title "DBH - Database for statistikk om høyere utdanning"@nb ,
             "DBH - Database for statistikk om høgare utdanning"@nn ,
             "DBH - Database for statistics for higher education"@en ;
-  dct:description "Database for statistikk om høyere utdanning (DBH) inneholder informasjon om hele den tertiære utdanningen i Norge som inkluderer universiteter, høyskoler og høyere yrkesfaglig utdanning.."@nb ,
-                    "Database for statistikk om høgare utdanning (DBH) inneheld informasjon om heile den tertiære utdanninga i Norge som inkluderar universiteter, høyskoler og høyere yrkesfaglig utdanning."@nn ,
-                    "An overview of artificial intelligence projects in the public sector. The overview is not complete."@en ;
+  dct:description "Database for statistikk om høyere utdanning (DBH) inneholder informasjon om hele den tertiære utdanningen i Norge som inkluderer universiteter, høyskoler og høyere yrkesfaglig utdanning."@nb ,
+                 "Database for statistikk om høgare utdanning (DBH) inneheld informasjon om heile den tertiære utdanninga i Norge som inkluderar universiteter, høyskoler og høyere yrkesfaglig utdanning."@nn ,
+                 "The Database for Statistics on Higher Education (DBH) contains information about all tertiary education in Norway, including universities, university colleges, and higher vocational education."@en ;
   dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
-  dct:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en,
-                "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
+  dct:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en ,
+               "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
   dct:spatial <http://publications.europa.eu/resource/authority/country/NOR> ;
   prov:wasGeneratedBy <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party> ;
   dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
   foaf:page <https://dbh.hkdir.no/tall-og-statistikk> ;
   dcat:distribution <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
+  .
+
 
   .
 
