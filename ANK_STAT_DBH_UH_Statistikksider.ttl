@@ -52,10 +52,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   foaf:page <https://dbh.hkdir.no/tall-og-statistikk> ;
   dcat:distribution <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   .
-
-
-  .
-
+  
   <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> a dcat:Distribution ;
   dct:title "DBH - Database for statistikk om høyere utdanning - Statistikkportal"@nb ,
             "DBH - Database for statistikk om høgare utdanning - Statistikkportal"@nn ,
