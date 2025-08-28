@@ -52,7 +52,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:accessURL <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   dcat:downloadURL <https://raw.githubusercontent.com/HKDIR-DBH/Datasett/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
-  dct:description "Lenke til statistikksider hos DBH"@nb ;
+  dct:description "Statistikksider hos DBH"@nb ;
   dct:issued "2025-07-23"^^xsd:date ;
   dct:license <http://publications.europa.eu/resource/authority/licence/CC0> ;
   dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
