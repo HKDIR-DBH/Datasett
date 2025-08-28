@@ -6,14 +6,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://data.hkdir.no/catalog/1> a dcat:Catalog ;
-dct:title "Katalog for datasett innen høyere utdanning"@nb ,
+dcat:title "Katalog for datasett innen høyere utdanning"@nb ,
   "Katalog for datasett innan høgare utdanning"@nn ,
   "Catalog for datasets in higher education"@en ;
-dct:description 
+dcat:description 
   "En katalog for datasett som eies av Direktoratet for høyere utdanning og kompetanse"@nb , 
   "Ein katalog for datasett som eiges av Direktoratet for høgare utdanning og kompetanse"@nn ,
   "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
-dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
+dcat:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
 dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
 dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
 .
@@ -33,14 +33,14 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dct:description "Database for statistikk om høyere utdanning (DBH) inneholder informasjon om hele den tertiære utdanningen i Norge som inkluderer universiteter, høyskoler og høyere yrkesfaglig utdanning."@nb ,
                  "Database for statistikk om høgare utdanning (DBH) inneheld informasjon om heile den tertiære utdanninga i Norge som inkluderar universiteter, høyskoler og høyere yrkesfaglig utdanning."@nn ,
                  "The Database for Statistics on Higher Education (DBH) contains information about all tertiary education in Norway, including universities, university colleges, and higher vocational education."@en ;
-  dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
+  dcat:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
   dcat:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en ,
                "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
-  dct:spatial <http://publications.europa.eu/resource/authority/country/NOR> ;
+  dcat:spatial <http://publications.europa.eu/resource/authority/country/NOR> ;
   prov:wasGeneratedBy <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party> ;
-  dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+  dcat:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
   foaf:page <https://dbh.hkdir.no/tall-og-statistikk> ;
   dcat:distribution <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   .
