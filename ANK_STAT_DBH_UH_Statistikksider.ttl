@@ -28,9 +28,9 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
   .
 <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> a dcat:Dataset ;
-  dct:title "DBH - Database for statistikk om høyere utdanning"@nb ,
-            "DBH - Database for statistikk om høgare utdanning"@nn ,
-            "DBH - Database for statistics for higher education"@en ;
+  dct:title "Database for statistikk om høyere utdanning (DBH)"@nb ,
+            "Database for statistikk om høgare utdanning (DBH)"@nn ,
+            "Database for statistics for higher education (DBH)"@en ;
   dct:description "Database for statistikk om høyere utdanning (DBH) inneholder informasjon om hele den tertiære utdanningen i Norge som inkluderer universiteter, høyskoler og høyere yrkesfaglig utdanning."@nb ,
                  "Database for statistikk om høgare utdanning (DBH) inneheld informasjon om heile den tertiære utdanninga i Norge som inkluderar universiteter, høyskoler og høyere yrkesfaglig utdanning."@nn ,
                  "The Database for Statistics on Higher Education (DBH) contains information about all tertiary education in Norway, including universities, university colleges, and higher vocational education."@en ;
