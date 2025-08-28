@@ -23,7 +23,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   vcard:hasEmail <mailto:dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir"@nb ;
   vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
-  vcard:tel <tel:+47-55303800> ;
+  vcard:hasTelephone <tel:+47-55303800> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
   .
 <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> a dcat:Dataset ;
@@ -35,7 +35,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
                  "The Database for Statistics on Higher Education (DBH) contains information about all tertiary education in Norway, including universities, university colleges, and higher vocational education."@en ;
   dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
-  dct:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en ,
+  dcat:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en ,
                "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
   dct:spatial <http://publications.europa.eu/resource/authority/country/NOR> ;
