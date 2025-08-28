@@ -18,6 +18,16 @@ dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
 dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
 .
 
+
+<https://hkdir.no/om-oss/kontakt-oss> a vcard:Organization ;
+  vcard:fn "Direktoratet for høyere utdanning og kompetanse"@nb , "Norwegian Directorate for Higher Education and Skills"@en ;
+  vcard:hasEmail <mailto:post@hkdir.no> ;
+  vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
+  vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
+  vcard:hasTelephone <tel:+47-55303800> ;
+  dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss>
+  .
+
 <https://dbh.hkdir.no/about/contact> a vcard:Organization ;
   vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
   vcard:hasEmail <mailto:dbh@hkdir.no> ;
@@ -52,9 +62,9 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:accessURL <https://github.com/HKDIR-DBH/Datasett/blob/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   dcat:downloadURL <https://raw.githubusercontent.com/HKDIR-DBH/Datasett/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
-  dct:description "Statistikksider hos DBH"@nb ;
-  dct:issued "2025-07-23"^^xsd:date ;
-  dct:license <http://publications.europa.eu/resource/authority/licence/CC0> ;
+  dcat:description "Statistikksider hos DBH"@nb ;
+  dcat:issued "2025-07-23"^^xsd:date ;
+  dcat:license <http://publications.europa.eu/resource/authority/licence/CC0> ;
   dcat:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
   dcat:language <http://publications.europa.eu/resource/authority/language/NOB> ;
   dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
