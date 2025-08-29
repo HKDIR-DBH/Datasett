@@ -19,13 +19,12 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
 .
 
 
-<https://hkdir.no/om-oss/kontakt-oss> a vcard:Organization ;
+<https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
   vcard:fn "Direktoratet for høyere utdanning og kompetanse"@nb , "Norwegian Directorate for Higher Education and Skills"@en ;
   vcard:hasEmail <mailto:post@hkdir.no> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
   vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
-  vcard:hasTelephone <tel:+47-55303800> ;
-  dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss>
+  vcard:tel <tel:+47-55303800> ;
   .
 
 <https://dbh.hkdir.no/about/contact> a vcard:Organization ;
