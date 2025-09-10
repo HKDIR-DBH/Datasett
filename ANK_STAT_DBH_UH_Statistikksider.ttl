@@ -21,7 +21,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
 
 
 <https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
-  vcard:fn "Direktoratet for høyere utdanning og kompetanse"@nb , "Norwegian Directorate for Higher Education and Skills"@en ;
+  vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb , "Norwegian Directorate for Higher Education and Skills"@en ;
   vcard:hasEmail <mailto:post@hkdir.no> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
   vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
@@ -29,7 +29,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss>
   .
 
-<https://dbh.hkdir.no/about/contact> a vcard:Organization ;
+<https://dbh.hkdir.no/about/contact> a vcard:Organization-unit ;
   vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
   vcard:hasEmail <mailto:dbh@hkdir.no> ;
   vcard:fn "Statistikk DBH UH HK-dir"@nb ;
