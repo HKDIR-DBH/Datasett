@@ -45,7 +45,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
                "studieprogram"@nb , "studieprogram"@nn , "study program"@en ,
                "statistikk"@nb , "statistikk"@nn , "statistics"@en ;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
-  dcat:spatial <http://publications.europa.eu/resource/authority/country/NOR> ;
+  dct:spatial <http://publications.europa.eu/resource/authority/country/NOR> ;
   prov:wasGeneratedBy <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party> ;
   dcat:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
   foaf:page <https://dbh.hkdir.no/tall-og-statistikk> ;
@@ -60,10 +60,10 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:downloadURL <https://raw.githubusercontent.com/HKDIR-DBH/Datasett/master/ANK_STAT_DBH_UH_Statistikksider.ttl> ;
   dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
   dcat:description "Statistikksider hos DBH"@nb ;
-  dcat:issued "2025-07-23"^^xsd:date ;
-  dcat:license <http://publications.europa.eu/resource/authority/licence/CC0> ;
+  dct:issued "2025-07-23"^^xsd:date ;
+  dct:license <http://publications.europa.eu/resource/authority/licence/CC0> ;
   dcat:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
-  dcat:language <http://publications.europa.eu/resource/authority/language/NOB> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/NOB> ;
   dcat:contactPoint [
       a vcard:Organization ;
       vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
@@ -73,5 +73,20 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
       vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
       vcard:hasTelephone <tel:+47-55303800> ;
   ] ;
+,
+
+
+# Opphav
+  dct:source "Statistikk levert av DBH"@nb ;
+
+
+  ## Tilgjengelighet
+  dct:accessRights <https://data.norge.no/definisjoner/tilgjengelighet/offentlig> ;
+
+  
+  ## Aktualitet
+  dct:valid "2025-01-01/2025-12-31"^^xsd:date 
+
+
   .
 
