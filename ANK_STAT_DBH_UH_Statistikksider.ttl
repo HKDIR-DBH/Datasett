@@ -29,14 +29,6 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss>
   .
 
-<https://dbh.hkdir.no/about/contact> a vcard:Organization-unit ;
-  vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
-  vcard:hasEmail <mailto:dbh@hkdir.no> ;
-  vcard:fn "Statistikk DBH UH HK-dir"@nb ;
-  vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
-  vcard:hasTelephone <tel:+47-55303800> ;
-  dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
-  .
 <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> a dcat:Dataset ;
   dct:title "Database for statistikk om høyere utdanning (DBH)"@nb ,
             "Database for statistikk om høgare utdanning (DBH)"@nn ,
@@ -72,6 +64,13 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:license <http://publications.europa.eu/resource/authority/licence/CC0> ;
   dcat:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
   dcat:language <http://publications.europa.eu/resource/authority/language/NOB> ;
-  dcat:contactPoint <https://dbh.hkdir.no/about/contact> ;
+  dcat:contactPoint [
+      a vcard:Organization ;
+      vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
+      vcard:hasEmail <mailto:dbh@hkdir.no> ;
+      vcard:fn "Statistikk DBH UH HK-dir"@nb ;
+      vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
+      vcard:hasTelephone <tel:+47-55303800> ;
+  ] ;
   .
 
