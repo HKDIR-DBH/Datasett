@@ -47,7 +47,11 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
   dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
   dcat:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en ,
-               "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
+               "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ,
+               "utdanning"@nb , "utdanning"@nn , "education"@en ,
+               "studier"@nb , "studier"@nn , "studies"@en ,
+               "studieprogram"@nb , "studieprogram"@nn , "study program"@en ,
+               "statistikk"@nb , "statistikk"@nn , "statistics"@en ;
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
   dcat:spatial <http://publications.europa.eu/resource/authority/country/NOR> ;
   prov:wasGeneratedBy <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party> ;
