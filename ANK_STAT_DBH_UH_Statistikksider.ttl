@@ -67,6 +67,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:contactPoint [
       a vcard:Organization ;
       vcard:fn "Database for statistikk om høyere utdanning"@nb , "Database for Statistics on Higher Education (DBH)"@en ;
+      vcard:organization-unit "DBH"@nb ;
       vcard:hasEmail <mailto:dbh@hkdir.no> ;
       vcard:fn "Statistikk DBH UH HK-dir"@nb ;
       vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
