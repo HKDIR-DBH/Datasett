@@ -43,7 +43,9 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
                "utdanning"@nb , "utdanning"@nn , "education"@en ,
                "studier"@nb , "studier"@nn , "studies"@en ,
                "studieprogram"@nb , "studieprogram"@nn , "study program"@en ,
-               "statistikk"@nb , "statistikk"@nn , "statistics"@en ;
+               "statistikk"@nb , "statistikk"@nn , "statistics"@en ,               
+               "Tilsatte"@nb , "Tilsette"@nn , "Employees"@en ;
+
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
   dct:spatial <http://publications.europa.eu/resource/authority/country/NOR> ;
   prov:wasGeneratedBy <https://data.norge.no/vocabulary/provenance-activity-type#collecting-from-third-party> ;
