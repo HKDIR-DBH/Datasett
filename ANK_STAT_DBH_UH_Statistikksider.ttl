@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix provno: <https://data.norge.no/vocabulary/provenance-activity-type#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -9,11 +10,11 @@
 dcat:title "Katalog for datasett innen høyere utdanning"@nb ,
   "Katalog for datasett innan høgare utdanning"@nn ,
   "Catalog for datasets in higher education"@en ;
-dcat:description 
+dct:description 
   "En katalog for datasett som eies av Direktoratet for høyere utdanning og kompetanse"@nb , 
   "Ein katalog for datasett som eiges av Direktoratet for høgare utdanning og kompetanse"@nn ,
   "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
-dcat:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
+dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
 dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
 dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
 .
@@ -43,7 +44,7 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dct:description "Database for statistikk om høyere utdanning (DBH) inneholder informasjon om hele den tertiære utdanningen i Norge som inkluderer universiteter, høyskoler og høyere yrkesfaglig utdanning."@nb ,
                  "Database for statistikk om høgare utdanning (DBH) inneheld informasjon om heile den tertiære utdanninga i Norge som inkluderar universiteter, høyskoler og høyere yrkesfaglig utdanning."@nn ,
                  "The Database for Statistics on Higher Education (DBH) contains information about all tertiary education in Norway, including universities, university colleges, and higher vocational education."@en ;
-  dcat:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
+  dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
   dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
   dcat:keyword "høyere utdanning"@nb , "høgare utdanning"@nn , "higher education"@en ,
                "offentlig sektor"@nb , "offentleg sektor"@nn , "public sector"@en ;
