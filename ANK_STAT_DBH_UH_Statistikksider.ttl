@@ -2,7 +2,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix provno: <https://data.norge.no/vocabulary/provenance-activity-type#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -75,20 +74,12 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
       vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
       vcard:hasTelephone <tel:+47-55303800> ;
   ] ;
-,
-
 
 # Opphav
   dct:source "Statistikk levert av DBH"@nb ;
-
-
   ## Tilgjengelighet
   dct:accessRights <https://data.norge.no/definisjoner/tilgjengelighet/offentlig> ;
-
-  
   ## Aktualitet
   dct:valid "2025-01-01/2025-12-31"^^xsd:date 
-
-
   .
 
