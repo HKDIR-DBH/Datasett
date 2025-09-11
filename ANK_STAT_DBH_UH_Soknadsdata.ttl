@@ -16,7 +16,8 @@ dct:description
   "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
 dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
 dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
-dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
+dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
+.
 
 <https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
   vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb , "Norwegian Directorate for Higher Education and Skills"@en ;
@@ -24,6 +25,63 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
   vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
   vcard:hasTelephone <tel:+47-55303800> ;
-  dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss>
-  
+  dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss> ;
   .
+  
+<https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379>
+  a dcat:Dataset ;
+
+  ## Tittel og beskrivelse
+  dct:title "Søknadsdata – kompetanse og poeng"@nb ;
+  dct:description """
+  Datasettet inneholder informasjon om søkere til høyere utdanning, inkludert søknadsprioriteringer, kompetansegrunnlag, opptakspoeng fra videregående skole, samt geografisk bakgrunn, statsborgerskap og utdanningsbakgrunn. 
+  Data inkluderer både Samordna opptak (NOM-opptaket) og lokale opptak ved institusjonene.
+  """@nb ;
+
+  ## Tid og språk
+  dct:issued "2020-01-01"^^xsd:date ;  # Justert eksempel
+  dct:modified "2025-09-01"^^xsd:date ;
+  dct:language <http://id.loc.gov/vocabulary/iso639-1/nb> ;
+
+  ## Tema og nøkkelord
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
+  dcat:keyword "søknadsdata"@nb, "opptak"@nb, "kompetanse"@nb, "poeng"@nb, "høyere utdanning"@nb, "HK-dir"@nb ;
+
+  ## Geografisk og tidsmessig avgrensning
+  dct:spatial <http://sws.geonames.org/3144096/> ;  # Norge
+  dct:temporal [
+    a dct:PeriodOfTime ;
+    dct:startDate "2020-01-01"^^xsd:date ;
+    dct:endDate "2025-09-01"^^xsd:date
+  ] ;
+
+  ## Kontaktpunkt
+  dcat:contactPoint [
+    a vcard:Organization ;
+    vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb ;
+    vcard:fn "Norwegian Directorate for Higher Education and Skills" @en ;
+    vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
+    vcard:hasTelephone <tel:+47-55303800> ;
+    vcard:organization-unit "Avdeling for data og statistikk" @nb ;
+    vcard:hasEmail <mailto:dbh@hkdir.no>
+  ] ;
+
+  ## Distribusjon
+  dcat:distribution [
+    a dcat:Distribution ;
+    dcat:accessURL <https://dbh.hkdir.no/datainnhold/> ;
+    dcat:mediaType "text/html"^^xsd:string ;
+    dct:license <https://data.norge.no/nlod/no/> ;
+    dct:format "HTML"^^xsd:string
+  ] ;
+
+  ## Oppdateringsfrekvens
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
+
+  ## Opphav og kilde
+  dct:creator <https://dbh.hkdir.no> ;
+  dct:source "Rapportert av universiteter og høgskoler via DBH-systemet, inkludert Samordna opptak og lokale opptak."@nb ;
+
+  ## I samsvar med
+  dct:conformsTo <https://data.norge.no/definisjoner/dcat-ap-no> .
+
