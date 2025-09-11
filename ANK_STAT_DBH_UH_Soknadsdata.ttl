@@ -74,7 +74,8 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
     dct:license <https://data.norge.no/nlod/no/> ;
     dct:format "HTML"^^xsd:string
   ] ;
-
+  .
+  
   ## Oppdateringsfrekvens
   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
 
@@ -85,3 +86,4 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   ## I samsvar med
   dct:conformsTo <https://data.norge.no/definisjoner/dcat-ap-no> .
 
+ 
