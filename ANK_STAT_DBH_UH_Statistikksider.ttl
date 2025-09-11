@@ -75,12 +75,14 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
       vcard:hasURL <https://dbh.hkdir.no/tall-og-statistikk> ;
       vcard:hasTelephone <tel:+47-55303800> ;
   ] ;
-
-# Opphav
   dct:source "Statistikk levert av DBH"@nb ;
-  ## Tilgjengelighet
   dct:accessRights <https://data.norge.no/definisjoner/tilgjengelighet/offentlig> ;
-  ## Aktualitet
-  dct:valid "2025-01-01/2025-12-31"^^xsd:date 
-  .
+  dct:valid "2025-01-01"^^xsd:date ;
+.
 
+<https://dbh.hkdir.no/dbhapiklient/> a dcat:DataService ;
+  dct:title "DBH API-klient"@nb ;
+  dct:description "API for uthenting av statistikkdata fra DBH."@nb ;
+  dcat:endpointURL <https://dbh.hkdir.no/dbhapiklient/> ;
+  dcat:servesDataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
+.
