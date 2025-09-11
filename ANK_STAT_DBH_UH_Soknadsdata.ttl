@@ -72,11 +72,9 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
     dcat:accessURL <https://dbh.hkdir.no/datainnhold/> ;
     dcat:mediaType "text/html"^^xsd:string ;
     dct:license <https://data.norge.no/nlod/no/> ;
-    dct:format "HTML"^^xsd:string
-  ] ;
-  .
-  
-  ## Oppdateringsfrekvens
+    dct:format "HTML"^^xsd:string;
+ 
+   ## Oppdateringsfrekvens
   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
 
   ## Opphav og kilde
@@ -84,6 +82,9 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   dct:source "Rapportert av universiteter og høgskoler via DBH-systemet, inkludert Samordna opptak og lokale opptak."@nb ;
 
   ## I samsvar med
-  dct:conformsTo <https://data.norge.no/definisjoner/dcat-ap-no> .
+    dct:conformsTo <https://data.norge.no/definisjoner/dcat-ap-no> ;
+] .
+
+
 
  
