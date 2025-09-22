@@ -69,10 +69,15 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   ## Distribusjon
   dcat:distribution [
     a dcat:Distribution ;
+    dct:description "Tabellbeskrivelse av søknadsdata - kompetanse og poeng"@nb ;
     dcat:accessURL <https://dbh.hkdir.no/datainnhold/> ;
+    foaf:page <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
     dcat:mediaType "text/html"^^xsd:string ;
     dct:license <https://data.norge.no/nlod/no/> ;
     dct:format "HTML"^^xsd:string;
+    dct:modified "2025-09-01"^^xsd:date ;
+    dct:title "Tabellbeskrivelse av søknadsdata - kompetanse og poeng"@nb ;
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/nb> ;
  
    ## Oppdateringsfrekvens
   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
