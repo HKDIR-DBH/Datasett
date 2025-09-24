@@ -41,7 +41,17 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   ## Tid og språk
   dct:issued "2020-01-01"^^xsd:date ;  # Justert eksempel
   dct:modified "2025-09-01"^^xsd:date ;
-  dct:language <http://id.loc.gov/vocabulary/iso639-1/nb> ;
+  # dct:language <http://id.loc.gov/vocabulary/iso639-1/nb> ;
+  # For språk (dct:language)
+  dct:language <http://publications.europa.eu/resource/authority/language/no> ; # Norsk bokmål
+  dct:language <http://publications.europa.eu/resource/authority/language/en> ; # Engelsk
+  dct:language <http://publications.europa.eu/resource/authority/language/nn> ; # Norsk nynorsk
+
+  # For opphav (dct:creator)
+ dct:creator <https://data.norge.no/concept/institutions/974788985> ; # Direktoratet for høyere utdanning og kompetanse
+
+  # For oppdateringsfrekvens (dct:accrualPeriodicity)
+dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/2> ; # UNKNOWN = ikke oppgitt
 
   ## Tema og nøkkelord
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
