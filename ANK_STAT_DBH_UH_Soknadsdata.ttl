@@ -51,7 +51,7 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
  dct:creator <https://data.norge.no/concept/institutions/974788985> ; # Direktoratet for høyere utdanning og kompetanse
 
   # For oppdateringsfrekvens (dct:accrualPeriodicity)
-dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/2> ; # UNKNOWN = ikke oppgitt
+dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
 
   ## Tema og nøkkelord
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
