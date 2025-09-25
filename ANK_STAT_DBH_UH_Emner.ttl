@@ -14,7 +14,7 @@ dct:description
   "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
 dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
 dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
-dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
+dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/208> ;
 .
 
 <https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
@@ -26,21 +26,19 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
   dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss> ;
   .
 
-<https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210>
+<https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/208>
   a dcat:Dataset ;
 
   ## Tittel og beskrivelse
-  dct:title "Avdeling for institusjoner i høyere utdanning"@nb ;
+  dct:title "Emner innen høyere utdanning"@nb ;
   dct:description """
-  Denne tabellen definerer de organisasjonsenhetene som benyttes i DBH-statistikk. Ved behov for endringer melder institusjonene dette direkte til HK-dir, som da oppdaterer oppføringene.
-  I DBH benyttes det inntil tre organisasjonsnivåer: Institusjon, avdeling/fakultet og institutt/underavdeling. Enheter under nivå tre blir ikke definert som egne enheter i DBH.
-  """@nb ;
+  Emner representerer de minste resultatbærende enheter, i form av studiepoengsuttelling, som inngår i institusjonens regulære utdanning, dvs. utdanning som gir formell kompetanse, og omfatter eksamensrettet grunnutdanning på alle nivå, samt forskerutdanning, og som institusjonene tilbyr sine studenter og forskerrekrutter.   """@nb ;
 
   ## Tid og språk
   dct:issued "2025-01-01"^^xsd:date ;  
   dct:modified "2025-09-01"^^xsd:date ;
 
-  dcat:landingPage <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
+  dcat:landingPage <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/208> ;
   dct:language <http://publications.europa.eu/resource/authority/language/NOB> ; # Norsk bokmål
   dct:language <http://publications.europa.eu/resource/authority/language/NN> ; # Norsk nynorsk
   dct:language <http://publications.europa.eu/resource/authority/language/ENG> ; # Engelsk
@@ -59,7 +57,7 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
 
   ## Tema og nøkkelord
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
-  dcat:keyword "avdeling"@nb, "kompetanse"@nb, "høyere utdanning"@nb, "HK-dir"@nb ;
+  dcat:keyword "Emner"@nb,  "kompetanse"@nb, "høyere utdanning"@nb, "HK-dir"@nb ;
 
   
 
@@ -76,15 +74,15 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
   ## Distribusjon
   dcat:distribution [
     a dcat:Distribution ;
-    dct:description "Tabellbeskrivelse av en avdeling"@nb ;
+    dct:description "Tabellbeskrivelse av en emner"@nb ;
     dcat:accessURL <https://dbh.hkdir.no/datainnhold/> ;
     dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
-    foaf:page <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
+    foaf:page <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/208> ;
     dcat:mediaType "text/html"^^xsd:string ;
     dct:license <https://data.norge.no/nlod/no/> ;
     dct:format "HTML"^^xsd:string;
     dct:modified "2025-09-01"^^xsd:date ;
-    dct:title "Tabellbeskrivelse av en avdeling"@nb ;
+    dct:title "Tabellbeskrivelse av en emner"@nb ;
 
     dct:language <http://publications.europa.eu/resource/authority/language/no> ; # Norsk bokmål
     dct:language <http://publications.europa.eu/resource/authority/language/en> ; # Engelsk

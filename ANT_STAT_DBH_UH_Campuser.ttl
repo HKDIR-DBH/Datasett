@@ -58,7 +58,7 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/662> ;
 
   ## Tema og nøkkelord
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
-  dcat:keyword "søknadsdata"@nb, "opptak"@nb, "kompetanse"@nb, "poeng"@nb, "høyere utdanning"@nb, "HK-dir"@nb ;
+  dcat:keyword "campuser"@nb, "opptak"@nb, "kompetanse"@nb, "poeng"@nb, "høyere utdanning"@nb, "HK-dir"@nb ;
 
   
 
