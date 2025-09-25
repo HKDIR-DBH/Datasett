@@ -45,7 +45,7 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   dct:language <http://publications.europa.eu/resource/authority/language/ENG> ; # Engelsk
 
   # For opphav (dct:creator)
-  dct:creator <https://data.norge.no/concept/institutions/974788985> ; # Direktoratet for høyere utdanning og kompetanse
+  dct:creator  <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ; # Direktoratet for høyere utdanning og kompetanse
 
   # For oppdateringsfrekvens (dct:accrualPeriodicity)
   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
