@@ -1,8 +1,6 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix provno: <https://data.norge.no/vocabulary/provenance-activity-type#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -70,24 +68,6 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
     dct:startDate "2020-01-01"^^xsd:date ;
     dct:endDate "2025-09-01"^^xsd:date
   ] ;
-
-  ## Kontaktpunkt
-  dcat:contactPoint [
-    a vcard:Organization ;
-    vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb ;
-    vcard:fn "Direktoratet for høgare utdanning og kompetanse" @nn ;
-    vcard:fn "Norwegian Directorate for Higher Education and Skills" @en ;
-    vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
-    vcard:hasTelephone <tel:+47-55303800> ;
-    vcard:hasEmail <mailto:dbh@hkdir.no>;
-  ] ;
-
-  ## sub-division
-
-  ##   vcard:organization-unit "Avdeling for data og statistikk" @nb ;
-  ##  vcard:organization-unit "Avdeling for data og statistikk" @nn ;
-  ##  vcard:organization-unit "Department of Data and Statistics" @en ;
- 
 
   ## Distribusjon
   dcat:distribution [
