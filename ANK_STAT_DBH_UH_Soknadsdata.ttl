@@ -37,10 +37,9 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   """@nb ;
 
   ## Tid og språk
-  dct:issued "2020-01-01"^^xsd:date ;  # Justert eksempel
+  dct:issued "2025-01-01"^^xsd:date ;  
   dct:modified "2025-09-01"^^xsd:date ;
-  # dct:language <http://id.loc.gov/vocabulary/iso639-1/nb> ;
-  # For språk (dct:language)
+
   dct:language <http://publications.europa.eu/resource/authority/language/no> ; # Norsk bokmål
   dct:language <http://publications.europa.eu/resource/authority/language/en> ; # Engelsk
   dct:language <http://publications.europa.eu/resource/authority/language/nn> ; # Norsk nynorsk
