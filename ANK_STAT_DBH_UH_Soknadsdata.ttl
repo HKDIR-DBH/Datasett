@@ -69,6 +69,17 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
     dct:endDate "2025-09-01"^^xsd:date
   ] ;
 
+
+  ## Kontaktpunkt
+  dcat:contactPoint [
+  
+    vcard:fn "Database for statistikk om høyere utdanning (DBH)"@nb , "Database for statistikk om høgare utdanning (DBH)"@nn , "Database for Statistics on Higher Education (DBH)"@en ;
+    vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
+    vcard:hasTelephone <tel:+47-55303800> ;
+    vcard:hasEmail <mailto:dbh@hkdir.no>;
+  ] ;
+
+
   ## Distribusjon
   dcat:distribution [
     a dcat:Distribution ;
