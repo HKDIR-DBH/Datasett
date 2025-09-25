@@ -40,8 +40,9 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   dct:issued "2025-01-01"^^xsd:date ;  
   dct:modified "2025-09-01"^^xsd:date ;
 
+  dcat:landingPage <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   dct:language <http://publications.europa.eu/resource/authority/language/NOB> ; # Norsk bokmål
-  dct:language <http://publications.europa.eu/resource/authority/language/NNN> ; # Norsk nynorsk
+  dct:language <http://publications.europa.eu/resource/authority/language/NN> ; # Norsk nynorsk
   dct:language <http://publications.europa.eu/resource/authority/language/ENG> ; # Engelsk
 
   # For opphav (dct:creator)
