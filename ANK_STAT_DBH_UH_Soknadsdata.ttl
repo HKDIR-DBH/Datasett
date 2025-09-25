@@ -40,9 +40,9 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   dct:issued "2025-01-01"^^xsd:date ;  
   dct:modified "2025-09-01"^^xsd:date ;
 
-  dct:language <http://publications.europa.eu/resource/authority/language/no> ; # Norsk bokmål
-  dct:language <http://publications.europa.eu/resource/authority/language/en> ; # Engelsk
-  dct:language <http://publications.europa.eu/resource/authority/language/nn> ; # Norsk nynorsk
+  dct:language <http://publications.europa.eu/resource/authority/language/NOB> ; # Norsk bokmål
+  dct:language <http://publications.europa.eu/resource/authority/language/NNN> ; # Norsk nynorsk
+  dct:language <http://publications.europa.eu/resource/authority/language/ENG> ; # Engelsk
 
   # For opphav (dct:creator)
   dct:creator <https://data.norge.no/concept/institutions/974788985> ; # Direktoratet for høyere utdanning og kompetanse
