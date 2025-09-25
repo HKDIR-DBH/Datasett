@@ -48,10 +48,16 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   dct:language <http://publications.europa.eu/resource/authority/language/nn> ; # Norsk nynorsk
 
   # For opphav (dct:creator)
- dct:creator <https://data.norge.no/concept/institutions/974788985> ; # Direktoratet for høyere utdanning og kompetanse
+  dct:creator <https://data.norge.no/concept/institutions/974788985> ; # Direktoratet for høyere utdanning og kompetanse
 
   # For oppdateringsfrekvens (dct:accrualPeriodicity)
-dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
+
+  dct:accuracy <https://data.norge.no/concept/hoy-noyaktighet> ;
+  dct:accessRights <https://data.norge.no/concept/begrenset> ;
+  dct:completeness <https://data.norge.no/concept/komplett> ;
+  dct:currentness <https://data.norge.no/concept/oppdatert> ;
+  dct:relevance <https://data.norge.no/concept/hoy-relevans> ;
 
   ## Tema og nøkkelord
   dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
@@ -73,11 +79,15 @@ dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequen
     vcard:fn "Norwegian Directorate for Higher Education and Skills" @en ;
     vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
     vcard:hasTelephone <tel:+47-55303800> ;
-    vcard:organization-unit "Avdeling for data og statistikk" @nb ;
-    vcard:organization-unit "Avdeling for data og statistikk" @nn ;
-    vcard:organization-unit "Department of Data and Statistics" @en ;
-    vcard:hasEmail <mailto:dbh@hkdir.no>
+    vcard:hasEmail <mailto:dbh@hkdir.no>;
   ] ;
+
+  ## sub-division
+
+  ##   vcard:organization-unit "Avdeling for data og statistikk" @nb ;
+  ##  vcard:organization-unit "Avdeling for data og statistikk" @nn ;
+  ##  vcard:organization-unit "Department of Data and Statistics" @en ;
+ 
 
   ## Distribusjon
   dcat:distribution [
