@@ -20,7 +20,7 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
 .
 
 <https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
-  vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb , "Norwegian Directorate for Higher Education and Skills"@en ;
+  vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb , "Direktoratet for høyere utdanning og kompetanse"@nn ,"Norwegian Directorate for Higher Education and Skills"@en ;
   vcard:hasEmail <mailto:post@hkdir.no> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
   vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
@@ -69,10 +69,13 @@ dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequen
   dcat:contactPoint [
     a vcard:Organization ;
     vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb ;
+    vcard:fn "Direktoratet for høgare utdanning og kompetanse" @nn ;
     vcard:fn "Norwegian Directorate for Higher Education and Skills" @en ;
     vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
     vcard:hasTelephone <tel:+47-55303800> ;
     vcard:organization-unit "Avdeling for data og statistikk" @nb ;
+    vcard:organization-unit "Avdeling for data og statistikk" @nn ;
+    vcard:organization-unit "Department of Data and Statistics" @en ;
     vcard:hasEmail <mailto:dbh@hkdir.no>
   ] ;
 
@@ -81,13 +84,17 @@ dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequen
     a dcat:Distribution ;
     dct:description "Tabellbeskrivelse av søknadsdata - kompetanse og poeng"@nb ;
     dcat:accessURL <https://dbh.hkdir.no/datainnhold/> ;
+    dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
     foaf:page <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
     dcat:mediaType "text/html"^^xsd:string ;
     dct:license <https://data.norge.no/nlod/no/> ;
     dct:format "HTML"^^xsd:string;
     dct:modified "2025-09-01"^^xsd:date ;
     dct:title "Tabellbeskrivelse av søknadsdata - kompetanse og poeng"@nb ;
-    dct:language <http://id.loc.gov/vocabulary/iso639-1/nb> ;
+    #dct:language <http://id.loc.gov/vocabulary/iso639-1/nb> ;
+    dct:language <http://publications.europa.eu/resource/authority/language/no> ; # Norsk bokmål
+    dct:language <http://publications.europa.eu/resource/authority/language/en> ; # Engelsk
+    dct:language <http://publications.europa.eu/resource/authority/language/nn> ; # Norsk nynorsk
  
    ## Oppdateringsfrekvens
   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
