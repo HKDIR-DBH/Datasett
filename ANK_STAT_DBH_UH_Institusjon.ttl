@@ -30,16 +30,16 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/211> ;
   a dcat:Dataset ;
 
   ## Tittel og beskrivelse
-  dct:title "Institusjon"@nb ;
+  dct:title "Oversikt over institusjoner i høyere utdanning"@nb ;
   dct:description """
-   Tabellen gir en oversikt over institusjoner i DBH i universitets- og høyskolesektoren..
+   Tabellen gir en oversikt over institusjoner i DBH i universitets- og høyskolesektoren.
   """@nb ;
 
   ## Tid og språk
   dct:issued "2025-01-01"^^xsd:date ;  
   dct:modified "2025-09-01"^^xsd:date ;
 
-  dcat:landingPage <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/211> ;
+  dcat:landingPage <https://dbh.hkdir.no/datainnhold/institusjoner/institusjonsoversikt/253/param?visningId=253&visKode=false&admdebug=false&columns=dep_id&hier=insttype%219%21instkode%219%21fakkode%219%21ufakkode&formel=1029&index=1&sti=&param=dep_id%3D1%219%21inst_status%3Dgyldige%219%21avd_status%3Dgyldige&binInst=1101> ;
   dct:language <http://publications.europa.eu/resource/authority/language/NOB> ; # Norsk bokmål
   dct:language <http://publications.europa.eu/resource/authority/language/NN> ; # Norsk nynorsk
   dct:language <http://publications.europa.eu/resource/authority/language/ENG> ; # Engelsk

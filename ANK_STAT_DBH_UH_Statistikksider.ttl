@@ -28,7 +28,8 @@ dcat:dataset <https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> ;
   dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss>
   .
 
-<https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> a dcat:Dataset ;
+<https://dbh.hkdir.no/tall-og-statistikk/statistikk-meny> 
+ a dcat:Dataset ;
   dct:title "Database for statistikk om høyere utdanning (DBH)"@nb ,
             "Database for statistikk om høgare utdanning (DBH)"@nn ,
             "Database for statistics for higher education (DBH)"@en ;
