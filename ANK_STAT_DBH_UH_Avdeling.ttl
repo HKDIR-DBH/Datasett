@@ -30,7 +30,7 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
   a dcat:Dataset ;
 
   ## Tittel og beskrivelse
-  dct:title "Avdeling for institusjonene i høyere utdanning"@nb ;
+  dct:title "Avdeling for institusjoner i høyere utdanning"@nb ;
   dct:description """
   Denne tabellen definerer de organisasjonsenhetene som benyttes i DBH-statistikk. Ved behov for endringer melder institusjonene dette direkte til HK-dir, som da oppdaterer oppføringene.
   I DBH benyttes det inntil tre organisasjonsnivåer: Institusjon, avdeling/fakultet og institutt/underavdeling. Enheter under nivå tre blir ikke definert som egne enheter i DBH.
