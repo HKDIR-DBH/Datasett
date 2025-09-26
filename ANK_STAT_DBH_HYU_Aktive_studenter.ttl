@@ -1,0 +1,105 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.hkdir.no/catalog/1> a dcat:Catalog ;
+dcat:title "Katalog for datasett innen høyere utdanning"@nb ,
+  "Katalog for datasett innan høgare utdanning"@nn ,
+  "Catalog for datasets in higher education"@en ;
+dct:description 
+  "En katalog for datasett som eies av Direktoratet for høyere utdanning og kompetanse"@nb , 
+  "Ein katalog for datasett som eiges av Direktoratet for høgare utdanning og kompetanse"@nn ,
+  "An catalog for datasets that are owned by the Norwegian Directorate for higher education and competence."@en ;
+dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ;
+dcat:contactPoint <https://data.hkdir.no/contactpoint/informasjonsforvaltning> ;
+dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/937> ;
+.
+
+<https://data.hkdir.no/contactpoint/informasjonsforvaltning> a vcard:Organization ;
+  vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb , "Direktoratet for høyere utdanning og kompetanse"@nn ,"Norwegian Directorate for Higher Education and Skills"@en ;
+  vcard:hasEmail <mailto:post@hkdir.no> ;
+  vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
+  vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
+  vcard:hasTelephone <tel:+47-55303800> ;
+  dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss> ;
+  .
+
+<https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/435>
+  a dcat:Dataset ;
+
+  ## Tittel og beskrivelse
+  dct:title "Aktive studenter i høyere yrkesfaglig utdanning"@nb ;
+  dct:description """
+  I denne tabellen rapporteres studenter som har status som aktive ved fagskolen på ett av de to offisielle telletidspunktene.
+  """@nb ;
+
+  ## Tid og språk
+  dct:issued "2025-01-01"^^xsd:date ;  
+  dct:modified "2025-09-01"^^xsd:date ;
+
+  dcat:landingPage <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/937> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/NOB> ; # Norsk bokmål
+  dct:language <http://publications.europa.eu/resource/authority/language/NN> ; # Norsk nynorsk
+  dct:language <http://publications.europa.eu/resource/authority/language/ENG> ; # Engelsk
+
+  # For opphav (dct:creator)
+  dct:creator  <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ; # Direktoratet for høyere utdanning og kompetanse
+
+  # For oppdateringsfrekvens (dct:accrualPeriodicity)
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
+
+  dct:accuracy <https://data.norge.no/concept/hoy-noyaktighet> ;
+  dct:accessRights <https://data.norge.no/concept/begrenset> ;
+  dct:completeness <https://data.norge.no/concept/komplett> ;
+  dct:currentness <https://data.norge.no/concept/oppdatert> ;
+  dct:relevance <https://data.norge.no/concept/hoy-relevans> ;
+
+  ## Tema og nøkkelord
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
+  dcat:keyword "studenter"@nb, "kompetanse"@nb, "høyere utdanning"@nb, "HK-dir"@nb ;
+
+  
+
+  ## Kontaktpunkt
+  dcat:contactPoint [
+    dct:description "Database for statistikk om høyere utdanning (DBH)"@nb ;
+    vcard:fn "Database for statistikk om høyere utdanning (DBH)"@nb , "Database for statistikk om høgare utdanning (DBH)"@nn , "Database for Statistics on Higher Education (DBH)"@en ;
+    vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
+    vcard:hasTelephone <tel:+47-55303800> ;
+    vcard:hasEmail <mailto:dbh@hkdir.no>;
+  ] ;
+
+
+  ## Distribusjon
+  dcat:distribution [
+    a dcat:Distribution ;
+    dct:description "Tabellbeskrivelse av aktive studenter"@nb ;
+    dcat:accessURL <https://dbh.hkdir.no/datainnhold/> ;
+    dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
+    foaf:page <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/937> ;
+    dcat:mediaType "text/html"^^xsd:string ;
+    dct:license <https://data.norge.no/nlod/no/> ;
+    dct:format "HTML"^^xsd:string;
+    dct:modified "2025-09-01"^^xsd:date ;
+    dct:title "Tabellbeskrivelse av aktive studenter"@nb ;
+
+    dct:language <http://publications.europa.eu/resource/authority/language/no> ; # Norsk bokmål
+    dct:language <http://publications.europa.eu/resource/authority/language/en> ; # Engelsk
+    dct:language <http://publications.europa.eu/resource/authority/language/nn> ; # Norsk nynorsk
+ 
+   ## Oppdateringsfrekvens
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
+
+  ## Opphav og kilde
+  dct:creator <https://dbh.hkdir.no> ;
+  dct:source "Rapportert av universiteter og høgskoler via DBH-systemet, inkludert Samordna opptak og lokale opptak."@nb ;
+
+  ## I samsvar med
+    dct:conformsTo <https://data.norge.no/definisjoner/dcat-ap-no> ;
+] .
+
+
+
+ 
