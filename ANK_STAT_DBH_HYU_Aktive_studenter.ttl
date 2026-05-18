@@ -4,7 +4,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.hkdir.no/catalog/1> a dcat:Catalog ;
+<https://data.hkdir.no/catalog/1.1> a dcat:Catalog ;
 dcat:title "Katalog for datasett innen høyere utdanning"@nb ,
   "Katalog for datasett innan høgare utdanning"@nn ,
   "Catalog for datasets in higher education"@en ;

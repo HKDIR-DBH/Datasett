@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://data.hkdir.no/catalog/1> a dcat:Catalog ;
-dcat:title "Katalog for datasett innen høyere utdanning"@nb ,
+dct:title "Katalog for datasett innen høyere utdanning"@nb ,
   "Katalog for datasett innan høgare utdanning"@nn ,
   "Catalog for datasets in higher education"@en ;
 dct:description 
@@ -29,6 +29,7 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
 <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379>
   a dcat:Dataset ;
 
+  dct:publisher <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ; # Direktoratet for høyere utdanning og kompetanse
   ## Tittel og beskrivelse
   dct:title "Søknadsdata – kompetanse og poeng"@nb ;
   dct:description """
@@ -41,9 +42,9 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   dct:modified "2025-09-01"^^xsd:date ;
 
   dcat:landingPage <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
-  dct:language <http://publications.europa.eu/resource/authority/language/NOB> ; # Norsk bokmål
-  dct:language <http://publications.europa.eu/resource/authority/language/NN> ; # Norsk nynorsk
-  dct:language <http://publications.europa.eu/resource/authority/language/ENG> ; # Engelsk
+  dct:language <http://publications.europa.eu/resource/authority/language/NOB> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/NNO> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
 
   # For opphav (dct:creator)
   dct:creator  <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ; # Direktoratet for høyere utdanning og kompetanse
@@ -52,7 +53,7 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/379> ;
   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
 
   dct:accuracy <https://data.norge.no/concept/hoy-noyaktighet> ;
-  dct:accessRights <https://data.norge.no/concept/begrenset> ;
+  dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
   dct:completeness <https://data.norge.no/concept/komplett> ;
   dct:currentness <https://data.norge.no/concept/oppdatert> ;
   dct:relevance <https://data.norge.no/concept/hoy-relevans> ;
