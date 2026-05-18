@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://data.hkdir.no/catalog/1.3> a dcat:Catalog ;
-dcat:title "Katalog for datasett innen høyere utdanning"@nb ,
+dct:title "Katalog for datasett innen høyere utdanning"@nb ,
   "Katalog for datasett innan høgare utdanning"@nn ,
   "Catalog for datasets in higher education"@en ;
 dct:description 
@@ -21,7 +21,6 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
   vcard:fn "Direktoratet for høyere utdanning og kompetanse" @nb , "Direktoratet for høyere utdanning og kompetanse"@nn ,"Norwegian Directorate for Higher Education and Skills"@en ;
   vcard:hasEmail <mailto:post@hkdir.no> ;
   vcard:hasURL <https://hkdir.no/om-oss/kontakt-oss> ;
-  vcard:fn "Informasjonsforvaltning HK-dir"@nb ;
   vcard:hasTelephone <tel:+47-55303800> ;
   dcat:contactPoint <https://hkdir.no/om-oss/kontakt-oss> ;
   .
@@ -76,25 +75,31 @@ dcat:dataset <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
   ## Distribusjon
   dcat:distribution [
     a dcat:Distribution ;
+    dct:title "Tabellbeskrivelse av en avdeling"@nb ;
     dct:description "Tabellbeskrivelse av en avdeling"@nb ;
+
+
     dcat:accessURL <https://dbh.hkdir.no/datainnhold/> ;
     dcat:accessService <https://dbh.hkdir.no/dbhapiklient/> ;
     foaf:page <https://dbh.hkdir.no/datainnhold/tabell-dokumentasjon/210> ;
-    dcat:mediaType "text/html"^^xsd:string ;
-    dct:license <https://data.norge.no/nlod/no/> ;
-    dct:format "HTML"^^xsd:string;
-    dct:modified "2025-09-01"^^xsd:date ;
-    dct:title "Tabellbeskrivelse av en avdeling"@nb ;
 
-    dct:language <http://publications.europa.eu/resource/authority/language/no> ; # Norsk bokmål
-    dct:language <http://publications.europa.eu/resource/authority/language/en> ; # Engelsk
-    dct:language <http://publications.europa.eu/resource/authority/language/nn> ; # Norsk nynorsk
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+
+    dct:license <https://data.norge.no/nlod/no/> ;
+
+    dct:modified "2026-05-18"^^xsd:date ;
+
+
+    dct:language <http://publications.europa.eu/resource/authority/language/NOB> ;
+    dct:language <http://publications.europa.eu/resource/authority/language/NNO> ;
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> ;
  
    ## Oppdateringsfrekvens
   dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/BIANNUAL> ;  # Vår og høst
 
   ## Opphav og kilde
-  dct:creator <https://dbh.hkdir.no> ;
+  dct:creator  <https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/974788985> ; # Direktoratet for høyere utdanning og kompetanse
   dct:source "Rapportert av universiteter og høgskoler via DBH-systemet, inkludert Samordna opptak og lokale opptak."@nb ;
 
   ## I samsvar med
